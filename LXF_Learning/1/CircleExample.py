@@ -8,8 +8,7 @@ for x in [1, 2, 3, 4, 5, 6, 7, 8 ,9 ,10]:
 print(sum)
 
 # 计算从1-n的整数之和
-print(list(range(5)))
-
+# print(list(range(5)))
 sum = 0
 a = list(range(101))
 for n in a:
@@ -23,6 +22,7 @@ while n > 0:
     n = n - 2
 print(sum)
 
+# break
 n = 1
 while n < 100:
     if n > 10:
@@ -31,6 +31,7 @@ while n < 100:
     n += 1
 print("END")
 
+# continue
 n = 0
 while n < 10:
     n += 1
